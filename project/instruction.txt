@@ -1,0 +1,24 @@
+CREATE  A WEB APPLICATION PAGE
+
+1. Create a branch with your fullname
+
+2. Make use the project_plan.xls template to document your activities for the duration of this project.  
+
+3. You are required to create a web application page using html and css and bootstrap (optional).
+
+Kindly pay attention to :
+
+a. Page Responsiveness;
+b. Detailing; 
+c. Font; 
+d. User Experience
+
+4. Kindly view and pick one of the images in the assignment folder to understand what the look and feel of the page 
+assigned to you. 
+
+5. Download images (if need be) for use in this project.
+
+6. Make sure to push to the git repository 'https://github.com/fpghubintern/webapplication' with your created
+git branch frequently or before the end of work.
+
+Good luck.
