@@ -1,0 +1,219 @@
+
+body{
+	height:100%;
+}
+header{
+	background-color:grey;
+	height:120px;
+	
+}
+
+ul li {
+	display: inline;
+	margin:30px;
+	
+
+}
+
+ul li a {
+	text-transform: uppercase;
+	color: whitesmoke;
+	font-size: 16px;
+}
+.links li a {
+		text-decoration: none;
+}
+
+a.active,a:hover{
+color:lightgrey;
+transition:0.5s;
+}
+	
+
+.img{
+	float:left;
+	width:25%;
+	height:inherit;
+}
+ul {
+	margin-right: auto;
+}
+
+.links {
+	float:right;
+	margin-top:25px;
+	width:60%;
+}
+
+.catch {
+	padding:9px;
+}
+
+.checkbtn{
+	font-size:30px;
+	color:white;
+	float:right;
+	line-height: 80px;
+	margin-top:30px;
+	margin-right: 40px;
+	cursor:pointer;
+	display:none;
+}
+
+.checkbtn:checked ~ ul{
+		left:0;
+}
+
+#check {
+display:none;
+}
+
+
+
+.content: {
+	width:100%;
+	height:500px;
+	border:1px solid red;
+	background-color: red;
+}
+
+
+
+
+.background {
+    background-image:url("backView.jpg");
+	background-size: 1400px;
+	background-repeat: no-repeat;
+	height:500px;
+	background-position: fixed;
+
+}
+
+.name {
+	width:60%;
+	text-align: center;
+	height:45%;
+	margin-left:20rem;
+	margin-top:5rem;
+	position: absolute;
+}
+
+
+.name p {
+	color:white;
+	line-height:2rem;
+	font-size:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1024px) {
+	.links {
+		padding:25px;
+		width:75%;
+	}
+
+	
+}
+
+@media(max-width:768px) {
+	.links {
+		width:75%;
+	}
+
+	ul li {
+		margin:20px;
+		display:block;
+	}
+
+	ul {
+		position:fixed;
+		width:100%;
+		height:100vh;
+		background-color: darkgrey;
+		top:80px;
+		left:-100%;
+		text-align:center;
+		transition:all .5s;
+
+	}
+
+	.checkbtn  {
+		display:block;
+	}
+
+	.background {
+		background-size: cover;
+	}
+
+	.name {
+
+	margin-left:12rem
+	}
+;
+
+	
+
+}
+
+@media(max-width:992px) {
+.background {
+		background-size: cover;
+	}
+}
+
+@media(max-width:568px) {
+
+	.img {
+		
+		width:30%;
+		margin:auto;
+		height:70px;
+
+	}
+	.links {
+		width:70%;
+		margin:auto;
+		;
+	}
+
+	.catch {
+		width:80px;
+		height:inherit;
+	}
+
+	ul li {
+		margin:77px;
+	}
+
+
+	.name {
+
+	margin-left:7rem
+	}
+
+}
+
+
